@@ -1,7 +1,7 @@
 """
         >>>>>>>    Ejercicios de Expresiones y Operadores Aritméticos  <<<<<<
                                                                             """
-print (f"\n>>>>>>>    Ejercicios de Expresiones y Operadores Aritméticos   <<<<<<\n")                                                           
+print ("\n>>>>>>>    Ejercicios de Expresiones y Operadores Aritméticos   <<<<<<\n")                                                           
 print (f"Ejercicio 2. Transforma los textos siguientes en código de Python: \n")
 
 print (f"a) m es dividido entre 3 y almacenado en la variable p\n")

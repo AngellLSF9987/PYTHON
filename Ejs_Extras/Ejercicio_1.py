@@ -3,10 +3,10 @@
                                                              """
 print (f">>>>>>>    Ejercicios Extras   <<<<<<")                                                           
 print (f"\n","Ejercicio 1: \n")
-print (f"Una panadería vende trozos de tarta a 3.49€ cada una. El trozo que no es el día tiene un descuento del 60%.")
-print (f"Escribir un programa que comience leyendo el número de trozos vendidos de hoy como los que no son del día.")
-print (f"Después el programa debe mostrar el precio habitual de un trozo, el descuento que se le hace por no ser fresco,") 
-print (f"el coste de lo ganado en los trozos del día y los que no, y el coste final total.")
+print ("""Una panadería vende trozos de tarta a 3.49€ cada una. El trozo que no es el día tiene un descuento del 60%.
+Escribir un programa que comience leyendo el número de trozos vendidos de hoy como los que no son del día.
+Después el programa debe mostrar el precio habitual de un trozo, el descuento que se le hace por no ser fresco, 
+el coste de lo ganado en los trozos del día y los que no, y el coste final total.\n""")
 
 print (f"     -> Variable para el precio del trozo del día > pD <")
 print (f"     -> Variable para el precio del trozo no del día > nD <\n\n")
