@@ -736,5 +736,23 @@
         "peekOfCode": "imc = (float(p)/float(e))**2\nprint (f\"Su índice de masa corporal es: \", round(imc,2),\"\\n\")",
         "detail": "Ejs_Extras.Ejercicio_3",
         "documentation": {}
+    },
+    {
+        "label": "saldo",
+        "kind": 5,
+        "importPath": "Ejs_Finales.Ejercicio_2",
+        "description": "Ejs_Finales.Ejercicio_2",
+        "peekOfCode": "saldo = 1000\n# Bucle principal del cajero automático\n    -> while True:: Un bucle infinito para seguir mostrando el menú hasta que el usuario elija salir.\n        while True:    \n# Mostrar el menú de opciones\n    -> print: Muestra el menú de opciones.\n            print(\"\\nBienvenido al cajero automático\")\n            print(\"1. Consultar saldo\")\n            print(\"2. Retirar dinero\")\n            print(\"3. Ingresar dinero\")",
+        "detail": "Ejs_Finales.Ejercicio_2",
+        "documentation": {}
+    },
+    {
+        "label": "saldo",
+        "kind": 5,
+        "importPath": "Ejs_Finales.Ejercicio_2",
+        "description": "Ejs_Finales.Ejercicio_2",
+        "peekOfCode": "saldo = 1000\n# Bucle principal del cajero automático\n    # while True:: Un bucle infinito para seguir mostrando el menú hasta que el usuario elija salir.\nwhile True:    \n# Mostrar el menú de opciones\n    # print: Muestra el menú de opciones.\n    print(\"\\nBienvenido al cajero automático\")\n    print(\"1. Consultar saldo\")\n    print(\"2. Retirar dinero\")\n    print(\"3. Ingresar dinero\")",
+        "detail": "Ejs_Finales.Ejercicio_2",
+        "documentation": {}
     }
 ]
