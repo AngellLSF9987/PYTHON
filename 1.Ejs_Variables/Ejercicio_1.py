@@ -1,10 +1,10 @@
 """
         >>>>>>>    Ejercicios de Variables   <<<<<<
-                                                             """
-                                                             
+                                                        """
+
 print (f">>>>>>>    Ejercicios de Variables   <<<<<<")                                                           
 print (f"\n","Ejercicio 1: \n")
-                       
+
 print (f"a) Crea un variable llamada perros y asígnale el valor que el usuario introduzca por teclado: \n")
 
 perros = input("¿Cuántos perros tienes? ")
