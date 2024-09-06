@@ -1,0 +1,632 @@
+[
+    {
+        "label": "perros",
+        "kind": 5,
+        "importPath": "1.Ejs_Variables.Ejercicio_1",
+        "description": "1.Ejs_Variables.Ejercicio_1",
+        "peekOfCode": "perros = input(\"¿Cuántos perros tienes? \")\nprint (f\"Tengo: \",perros,\"\\n\")\nprint (type(perros))\nprint (f\"b) Crea una variable llamada comida y asígnale el valor 200.\\n\")\ncomida = 200\nprint (f\"El valor de la comida: \",comida,\"\\n\")\nprint (type(comida))\nprint (f\"c) Muestra el contenido de la variable perros. \\n\")\nprint (f\"El usuario respondió que el número de perros que tenía: \",perros,\"\\n\")\nprint (f\"d) Modifica el valor de la variable perros a 150.\\n\")",
+        "detail": "1.Ejs_Variables.Ejercicio_1",
+        "documentation": {}
+    },
+    {
+        "label": "comida",
+        "kind": 5,
+        "importPath": "1.Ejs_Variables.Ejercicio_1",
+        "description": "1.Ejs_Variables.Ejercicio_1",
+        "peekOfCode": "comida = 200\nprint (f\"El valor de la comida: \",comida,\"\\n\")\nprint (type(comida))\nprint (f\"c) Muestra el contenido de la variable perros. \\n\")\nprint (f\"El usuario respondió que el número de perros que tenía: \",perros,\"\\n\")\nprint (f\"d) Modifica el valor de la variable perros a 150.\\n\")\nperros = 150\nprint (perros,\"\\n\")\nprint (type(perros))\nprint (f\"e) Copia el valor de la variable perros en la variable comida.\",\"\\n\")",
+        "detail": "1.Ejs_Variables.Ejercicio_1",
+        "documentation": {}
+    },
+    {
+        "label": "perros",
+        "kind": 5,
+        "importPath": "1.Ejs_Variables.Ejercicio_1",
+        "description": "1.Ejs_Variables.Ejercicio_1",
+        "peekOfCode": "perros = 150\nprint (perros,\"\\n\")\nprint (type(perros))\nprint (f\"e) Copia el valor de la variable perros en la variable comida.\",\"\\n\")\nprint (f\"La sentencia que realizaría la copia del valor sería: \\n\",\"comida = perros \\n\")\nprint (f\"f) Imprime el valor de las dos variables con print().\\n\")\nprint (f\"El valor de la comida: \",comida, \"\\nEl número de perros que el usuario ha contestado que tiene: \",perros)",
+        "detail": "1.Ejs_Variables.Ejercicio_1",
+        "documentation": {}
+    },
+    {
+        "label": "animal",
+        "kind": 5,
+        "importPath": "1.Ejs_Variables.Ejercicio_2",
+        "description": "1.Ejs_Variables.Ejercicio_2",
+        "peekOfCode": "animal = (\"elefante\")\nprint (animal,\"\\n\")\nprint (f\"b) Escribe la palabra rosa dentro de una variable llamada color. \\n\")\nprint (f\"La sentencia  que declara >color< como variable y que su valor sea >rosa< sería:\\n\")\nprint (f\"animal = ('elefante')\",\"print (animal)\\n\")\nprint (f\"RESULTADO:\\n\")\ncolor = (\"rosa\")\nprint (color,\"\\n\")\nprint (f\"c) Crea una variable llamada imagina donde se almacenen las dos variables anteriores: animal y color dando como resultado el valor elefanterosa. \\n\")\nprint (f\"La sentencia  que declara >imagina< como variable y que su valor sea >elefanterosa< sería:\\n\") ",
+        "detail": "1.Ejs_Variables.Ejercicio_2",
+        "documentation": {}
+    },
+    {
+        "label": "color",
+        "kind": 5,
+        "importPath": "1.Ejs_Variables.Ejercicio_2",
+        "description": "1.Ejs_Variables.Ejercicio_2",
+        "peekOfCode": "color = (\"rosa\")\nprint (color,\"\\n\")\nprint (f\"c) Crea una variable llamada imagina donde se almacenen las dos variables anteriores: animal y color dando como resultado el valor elefanterosa. \\n\")\nprint (f\"La sentencia  que declara >imagina< como variable y que su valor sea >elefanterosa< sería:\\n\") \nprint (f\"imagina = (animal,color)\\n\")\nprint (f\"RESULTADO:\\n\")\nimagina = (animal,color)\nprint (f\"d) En la variable imagina intercala un espacio en blanco para separar las dos palabras.\\n\")\nprint (f\"La sentencia que declara >imagina< como variable y que su valor sea >elefante rosa< sería:\\n\")\nprint (f\"imagina = (animal,color) \\n print (animal, AQUÍ SE DEBE CONCATENAR CON UNAS COMILLAS DOBLES O SIMPLES, ESAPCIADAS ENTRE SÍ, color)\\n\")",
+        "detail": "1.Ejs_Variables.Ejercicio_2",
+        "documentation": {}
+    },
+    {
+        "label": "imagina",
+        "kind": 5,
+        "importPath": "1.Ejs_Variables.Ejercicio_2",
+        "description": "1.Ejs_Variables.Ejercicio_2",
+        "peekOfCode": "imagina = (animal,color)\nprint (f\"d) En la variable imagina intercala un espacio en blanco para separar las dos palabras.\\n\")\nprint (f\"La sentencia que declara >imagina< como variable y que su valor sea >elefante rosa< sería:\\n\")\nprint (f\"imagina = (animal,color) \\n print (animal, AQUÍ SE DEBE CONCATENAR CON UNAS COMILLAS DOBLES O SIMPLES, ESAPCIADAS ENTRE SÍ, color)\\n\")\nprint (f\"RESULTADO:\\n\")\nimagina = (animal,color)\nprint (animal,'', color,\"\\n\")",
+        "detail": "1.Ejs_Variables.Ejercicio_2",
+        "documentation": {}
+    },
+    {
+        "label": "imagina",
+        "kind": 5,
+        "importPath": "1.Ejs_Variables.Ejercicio_2",
+        "description": "1.Ejs_Variables.Ejercicio_2",
+        "peekOfCode": "imagina = (animal,color)\nprint (animal,'', color,\"\\n\")",
+        "detail": "1.Ejs_Variables.Ejercicio_2",
+        "documentation": {}
+    },
+    {
+        "label": "letra1",
+        "kind": 5,
+        "importPath": "1.Ejs_Variables.Ejercicio_3",
+        "description": "1.Ejs_Variables.Ejercicio_3",
+        "peekOfCode": "letra1 = input(\"¿Primera letra? \")\nprint (f\"Respuesta: \",letra1,\"\\n\")\nletra2 = input(\"¿Segunda letra? \")\nprint (f\"Respuesta: \",letra2,\"\\n\")\nletra3 = input(\"¿Tercera letra? \")\nprint (f\"Respuesta: \",letra3,\"\\n\")\nprint (f\"Las tres por orden de petición han sido: \\n\",letra1,\", \",letra2,\", \",letra3,\"\\n\")\nprint (f\"Las tres por orden inverso de petición han sido: \\n\",letra3,\", \",letra2,\", \",letra1,\"\\n\")\n                                                                                                    \"\"\"\nprint (f\"Escriba un programa que solicite al usuario tres letras y los muestre al revés. \\n\")",
+        "detail": "1.Ejs_Variables.Ejercicio_3",
+        "documentation": {}
+    },
+    {
+        "label": "letra2",
+        "kind": 5,
+        "importPath": "1.Ejs_Variables.Ejercicio_3",
+        "description": "1.Ejs_Variables.Ejercicio_3",
+        "peekOfCode": "letra2 = input(\"¿Segunda letra? \")\nprint (f\"Respuesta: \",letra2,\"\\n\")\nletra3 = input(\"¿Tercera letra? \")\nprint (f\"Respuesta: \",letra3,\"\\n\")\nprint (f\"Las tres por orden de petición han sido: \\n\",letra1,\", \",letra2,\", \",letra3,\"\\n\")\nprint (f\"Las tres por orden inverso de petición han sido: \\n\",letra3,\", \",letra2,\", \",letra1,\"\\n\")\n                                                                                                    \"\"\"\nprint (f\"Escriba un programa que solicite al usuario tres letras y los muestre al revés. \\n\")\nletra1 = input(\"¿Primera letra? \")\nprint (f\"Respuesta: \",letra1,\"\\n\")",
+        "detail": "1.Ejs_Variables.Ejercicio_3",
+        "documentation": {}
+    },
+    {
+        "label": "letra3",
+        "kind": 5,
+        "importPath": "1.Ejs_Variables.Ejercicio_3",
+        "description": "1.Ejs_Variables.Ejercicio_3",
+        "peekOfCode": "letra3 = input(\"¿Tercera letra? \")\nprint (f\"Respuesta: \",letra3,\"\\n\")\nprint (f\"Las tres por orden de petición han sido: \\n\",letra1,\", \",letra2,\", \",letra3,\"\\n\")\nprint (f\"Las tres por orden inverso de petición han sido: \\n\",letra3,\", \",letra2,\", \",letra1,\"\\n\")\n                                                                                                    \"\"\"\nprint (f\"Escriba un programa que solicite al usuario tres letras y los muestre al revés. \\n\")\nletra1 = input(\"¿Primera letra? \")\nprint (f\"Respuesta: \",letra1,\"\\n\")\nletra2 = input(\"¿Segunda letra? \")\nprint (f\"Respuesta: \",letra2,\"\\n\")",
+        "detail": "1.Ejs_Variables.Ejercicio_3",
+        "documentation": {}
+    },
+    {
+        "label": "letra1",
+        "kind": 5,
+        "importPath": "1.Ejs_Variables.Ejercicio_3",
+        "description": "1.Ejs_Variables.Ejercicio_3",
+        "peekOfCode": "letra1 = input(\"¿Primera letra? \")\nprint (f\"Respuesta: \",letra1,\"\\n\")\nletra2 = input(\"¿Segunda letra? \")\nprint (f\"Respuesta: \",letra2,\"\\n\")\nletra3 = input(\"¿Tercera letra? \")\nprint (f\"Respuesta: \",letra3,\"\\n\")\nprint (f\"Las tres por orden de petición han sido: \\n\",letra1,\", \",letra2,\", \",letra3,\"\\n\")\nprint (f\"Las tres por orden inverso de petición han sido: \\n\",letra3,\", \",letra2,\", \",letra1,\"\\n\")",
+        "detail": "1.Ejs_Variables.Ejercicio_3",
+        "documentation": {}
+    },
+    {
+        "label": "letra2",
+        "kind": 5,
+        "importPath": "1.Ejs_Variables.Ejercicio_3",
+        "description": "1.Ejs_Variables.Ejercicio_3",
+        "peekOfCode": "letra2 = input(\"¿Segunda letra? \")\nprint (f\"Respuesta: \",letra2,\"\\n\")\nletra3 = input(\"¿Tercera letra? \")\nprint (f\"Respuesta: \",letra3,\"\\n\")\nprint (f\"Las tres por orden de petición han sido: \\n\",letra1,\", \",letra2,\", \",letra3,\"\\n\")\nprint (f\"Las tres por orden inverso de petición han sido: \\n\",letra3,\", \",letra2,\", \",letra1,\"\\n\")",
+        "detail": "1.Ejs_Variables.Ejercicio_3",
+        "documentation": {}
+    },
+    {
+        "label": "letra3",
+        "kind": 5,
+        "importPath": "1.Ejs_Variables.Ejercicio_3",
+        "description": "1.Ejs_Variables.Ejercicio_3",
+        "peekOfCode": "letra3 = input(\"¿Tercera letra? \")\nprint (f\"Respuesta: \",letra3,\"\\n\")\nprint (f\"Las tres por orden de petición han sido: \\n\",letra1,\", \",letra2,\", \",letra3,\"\\n\")\nprint (f\"Las tres por orden inverso de petición han sido: \\n\",letra3,\", \",letra2,\", \",letra1,\"\\n\")",
+        "detail": "1.Ejs_Variables.Ejercicio_3",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "1.Ejs_Variables.Ejercicio_4",
+        "description": "1.Ejs_Variables.Ejercicio_4",
+        "peekOfCode": "x = input(\"¿Cómo te llamas?\")\nprint (f\"Encantado de conocerte\",x,\".\\n\")",
+        "detail": "1.Ejs_Variables.Ejercicio_4",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "1.Ejs_Variables.hola",
+        "description": "1.Ejs_Variables.hola",
+        "peekOfCode": "num = int(8.570)\nprint(num)\nnum1 = float(8) \nprint (num1)\na,b,c = 37,\"Angel\", \"Saorin\"\nprint (a,b,c);\nprint (type (a))\nprint (type (b))\nprint (type (c))",
+        "detail": "1.Ejs_Variables.hola",
+        "documentation": {}
+    },
+    {
+        "label": "num1",
+        "kind": 5,
+        "importPath": "1.Ejs_Variables.hola",
+        "description": "1.Ejs_Variables.hola",
+        "peekOfCode": "num1 = float(8) \nprint (num1)\na,b,c = 37,\"Angel\", \"Saorin\"\nprint (a,b,c);\nprint (type (a))\nprint (type (b))\nprint (type (c))",
+        "detail": "1.Ejs_Variables.hola",
+        "documentation": {}
+    },
+    {
+        "label": "a,b,c",
+        "kind": 5,
+        "importPath": "1.Ejs_Variables.hola",
+        "description": "1.Ejs_Variables.hola",
+        "peekOfCode": "a,b,c = 37,\"Angel\", \"Saorin\"\nprint (a,b,c);\nprint (type (a))\nprint (type (b))\nprint (type (c))",
+        "detail": "1.Ejs_Variables.hola",
+        "documentation": {}
+    },
+    {
+        "label": "suma",
+        "kind": 5,
+        "importPath": "2.Ejs_Expresiones_Operadores_Aritmeticos.Ejercicio_1",
+        "description": "2.Ejs_Expresiones_Operadores_Aritmeticos.Ejercicio_1",
+        "peekOfCode": "suma = x+y\nprint(f\"> La suma de x + y: \",suma)\nprint (f\"\\nb)\\n\")\nprint (f\"x=5\\ny=4\\n\")\nx=5\ny=4\nprint (f\"> La resta de x - y = \",x-y)\nprint (f\"\\nx=5\\ny=4\\nresta=x-y\\n\")\nresta = x-y\nprint(f\"> La resta de x - y: \",resta)",
+        "detail": "2.Ejs_Expresiones_Operadores_Aritmeticos.Ejercicio_1",
+        "documentation": {}
+    },
+    {
+        "label": "resta",
+        "kind": 5,
+        "importPath": "2.Ejs_Expresiones_Operadores_Aritmeticos.Ejercicio_1",
+        "description": "2.Ejs_Expresiones_Operadores_Aritmeticos.Ejercicio_1",
+        "peekOfCode": "resta = x-y\nprint(f\"> La resta de x - y: \",resta)\nprint (f\"\\nc)\\n\")\nprint (f\"x=6\\ny=3\\n\")\nx=6\ny=3\nprint (f\"> La multiplicación de x * y = \",x*y)\nprint (f\"\\nx=6\\ny=3\\nproducto=x*y\\n\")\nproducto = x*y\nprint (f\"> La producto de x * y = \",producto)",
+        "detail": "2.Ejs_Expresiones_Operadores_Aritmeticos.Ejercicio_1",
+        "documentation": {}
+    },
+    {
+        "label": "producto",
+        "kind": 5,
+        "importPath": "2.Ejs_Expresiones_Operadores_Aritmeticos.Ejercicio_1",
+        "description": "2.Ejs_Expresiones_Operadores_Aritmeticos.Ejercicio_1",
+        "peekOfCode": "producto = x*y\nprint (f\"> La producto de x * y = \",producto)\nprint (f\"\\nd)\\n\")\nprint (f\"x=8\\ny=2\\n\")\nx=8\ny=2\nprint (f\"> La división de x / y = \",x/y)\nprint (f\"\\nx=8\\ny=2\\nproducto=x/y\\n\")\ndivision = x/y\nprint (f\"> La división de x / y = \",division)",
+        "detail": "2.Ejs_Expresiones_Operadores_Aritmeticos.Ejercicio_1",
+        "documentation": {}
+    },
+    {
+        "label": "division",
+        "kind": 5,
+        "importPath": "2.Ejs_Expresiones_Operadores_Aritmeticos.Ejercicio_1",
+        "description": "2.Ejs_Expresiones_Operadores_Aritmeticos.Ejercicio_1",
+        "peekOfCode": "division = x/y\nprint (f\"> La división de x / y = \",division)\nprint (f\"\\ne)\\n\")\nprint (f\"x=3\\ny=3\\n\")\nx=3\ny=3\nprint (f\"> La potencia de x ** y = \",x**y)\nprint (f\"\\nx=3\\ny=3\\npotencia=x**y\\n\")\npotencia = x/y\nprint (f\"> La potencia de x ** y = \",potencia,\"\\n\")",
+        "detail": "2.Ejs_Expresiones_Operadores_Aritmeticos.Ejercicio_1",
+        "documentation": {}
+    },
+    {
+        "label": "potencia",
+        "kind": 5,
+        "importPath": "2.Ejs_Expresiones_Operadores_Aritmeticos.Ejercicio_1",
+        "description": "2.Ejs_Expresiones_Operadores_Aritmeticos.Ejercicio_1",
+        "peekOfCode": "potencia = x/y\nprint (f\"> La potencia de x ** y = \",potencia,\"\\n\")",
+        "detail": "2.Ejs_Expresiones_Operadores_Aritmeticos.Ejercicio_1",
+        "documentation": {}
+    },
+    {
+        "label": "m",
+        "kind": 5,
+        "importPath": "2.Ejs_Expresiones_Operadores_Aritmeticos.Ejercicio_2",
+        "description": "2.Ejs_Expresiones_Operadores_Aritmeticos.Ejercicio_2",
+        "peekOfCode": "m = input(\"¿Introduce un valor para m?\\n\")\nprint (f\"m =\",m)\nprint (f\"Realizamos un casting que convierta el valor de m, introducido como string, a un dato int.\\n\")\nprint (f\"                     p = int(m)/3\\n\")\np = int(m)/3\nprint (f\"El valor de p es: \",p)\nprint (f\"\\nb) m menos 6 almacenado en la variable q\\n\")\nm = input(\"¿Introduce un valor para m?\\n\")\nprint (f\"m =\",m)\nprint (f\"                     p = int(m)-6\\n\")",
+        "detail": "2.Ejs_Expresiones_Operadores_Aritmeticos.Ejercicio_2",
+        "documentation": {}
+    },
+    {
+        "label": "p",
+        "kind": 5,
+        "importPath": "2.Ejs_Expresiones_Operadores_Aritmeticos.Ejercicio_2",
+        "description": "2.Ejs_Expresiones_Operadores_Aritmeticos.Ejercicio_2",
+        "peekOfCode": "p = int(m)/3\nprint (f\"El valor de p es: \",p)\nprint (f\"\\nb) m menos 6 almacenado en la variable q\\n\")\nm = input(\"¿Introduce un valor para m?\\n\")\nprint (f\"m =\",m)\nprint (f\"                     p = int(m)-6\\n\")\nq = int(m)-6\nprint (f\"El valor de q es: \",q)",
+        "detail": "2.Ejs_Expresiones_Operadores_Aritmeticos.Ejercicio_2",
+        "documentation": {}
+    },
+    {
+        "label": "m",
+        "kind": 5,
+        "importPath": "2.Ejs_Expresiones_Operadores_Aritmeticos.Ejercicio_2",
+        "description": "2.Ejs_Expresiones_Operadores_Aritmeticos.Ejercicio_2",
+        "peekOfCode": "m = input(\"¿Introduce un valor para m?\\n\")\nprint (f\"m =\",m)\nprint (f\"                     p = int(m)-6\\n\")\nq = int(m)-6\nprint (f\"El valor de q es: \",q)",
+        "detail": "2.Ejs_Expresiones_Operadores_Aritmeticos.Ejercicio_2",
+        "documentation": {}
+    },
+    {
+        "label": "q",
+        "kind": 5,
+        "importPath": "2.Ejs_Expresiones_Operadores_Aritmeticos.Ejercicio_2",
+        "description": "2.Ejs_Expresiones_Operadores_Aritmeticos.Ejercicio_2",
+        "peekOfCode": "q = int(m)-6\nprint (f\"El valor de q es: \",q)",
+        "detail": "2.Ejs_Expresiones_Operadores_Aritmeticos.Ejercicio_2",
+        "documentation": {}
+    },
+    {
+        "label": "actual",
+        "kind": 5,
+        "importPath": "2.Ejs_Expresiones_Operadores_Aritmeticos.Ejercicio_3",
+        "description": "2.Ejs_Expresiones_Operadores_Aritmeticos.Ejercicio_3",
+        "peekOfCode": "actual = input(\"¿Introduce el año actual?\\n\")\nprint (f\"\\n> Petición al usuario de una año cualquiera\\n\")\nprint (f\"otro = input('¿Introduce un año cualquiera?\\n\")\notro = input(\"¿Introduce un año cualquiera?\\n\")\nprint (f\"\\nUna vez que se han introducido los dos valores para cada año, el programa calculará cuanto\")\nprint (f\"tiempo falta o cuanto tiempo ha pasado.\\n\")\nprint (f\"Tratamiento y Casting de la variable resultado para su comparación con variable actual\\n\\n\")\nprint (\"\"\"          if (int(actual) > int(otro)):\n                        resultado = int(actual)-int(otro)\n                        print(f'Han pasado ,resultado, años')",
+        "detail": "2.Ejs_Expresiones_Operadores_Aritmeticos.Ejercicio_3",
+        "documentation": {}
+    },
+    {
+        "label": "otro",
+        "kind": 5,
+        "importPath": "2.Ejs_Expresiones_Operadores_Aritmeticos.Ejercicio_3",
+        "description": "2.Ejs_Expresiones_Operadores_Aritmeticos.Ejercicio_3",
+        "peekOfCode": "otro = input(\"¿Introduce un año cualquiera?\\n\")\nprint (f\"\\nUna vez que se han introducido los dos valores para cada año, el programa calculará cuanto\")\nprint (f\"tiempo falta o cuanto tiempo ha pasado.\\n\")\nprint (f\"Tratamiento y Casting de la variable resultado para su comparación con variable actual\\n\\n\")\nprint (\"\"\"          if (int(actual) > int(otro)):\n                        resultado = int(actual)-int(otro)\n                        print(f'Han pasado ,resultado, años')\n                    else:\n                        resultado = int(otro)-int(actual)\")\n                        print(f'Faltan,resultado, años para llegar')\\n\\n\"\"\")",
+        "detail": "2.Ejs_Expresiones_Operadores_Aritmeticos.Ejercicio_3",
+        "documentation": {}
+    },
+    {
+        "label": "PI",
+        "kind": 5,
+        "importPath": "2.Ejs_Expresiones_Operadores_Aritmeticos.Ejercicio_4",
+        "description": "2.Ejs_Expresiones_Operadores_Aritmeticos.Ejercicio_4",
+        "peekOfCode": "PI = 3.1415\nprint (f\"El usuario deberá introducir el valor de la variable radio > r <. Por tanto, deberá existir un input\")\nprint (f\"que luego deberá ser tratado.\\n\")\nprint (f\"r = input(¿Valor de radio?)\\n\")\nr = input(\"¿Introduce un valor para radio?\\n\")\nprint (f\"\\nSentencia para calcular la superficie:\\n\")\nprint (f\"    s = 4*PI*float(r)**2\")\ns = 4*PI*float(r)**2\nprint (f\"\\nEl valor de la superficie es: \",round(s,2),\"\\n\")\nprint (f\"b) volumen = 4/3 * PI* radio al cubo\\n\")",
+        "detail": "2.Ejs_Expresiones_Operadores_Aritmeticos.Ejercicio_4",
+        "documentation": {}
+    },
+    {
+        "label": "r",
+        "kind": 5,
+        "importPath": "2.Ejs_Expresiones_Operadores_Aritmeticos.Ejercicio_4",
+        "description": "2.Ejs_Expresiones_Operadores_Aritmeticos.Ejercicio_4",
+        "peekOfCode": "r = input(\"¿Introduce un valor para radio?\\n\")\nprint (f\"\\nSentencia para calcular la superficie:\\n\")\nprint (f\"    s = 4*PI*float(r)**2\")\ns = 4*PI*float(r)**2\nprint (f\"\\nEl valor de la superficie es: \",round(s,2),\"\\n\")\nprint (f\"b) volumen = 4/3 * PI* radio al cubo\\n\")\nprint (f\"Sentencia para calcular el volumen:\\n\")\nprint (f\"    v = 4/3*PI*float(r)**3\\n\")\nv = 4/3*PI*float(r)**3\nprint (f\"El valor del volumen es: \",round(v,2),\"\\n\")",
+        "detail": "2.Ejs_Expresiones_Operadores_Aritmeticos.Ejercicio_4",
+        "documentation": {}
+    },
+    {
+        "label": "s",
+        "kind": 5,
+        "importPath": "2.Ejs_Expresiones_Operadores_Aritmeticos.Ejercicio_4",
+        "description": "2.Ejs_Expresiones_Operadores_Aritmeticos.Ejercicio_4",
+        "peekOfCode": "s = 4*PI*float(r)**2\nprint (f\"\\nEl valor de la superficie es: \",round(s,2),\"\\n\")\nprint (f\"b) volumen = 4/3 * PI* radio al cubo\\n\")\nprint (f\"Sentencia para calcular el volumen:\\n\")\nprint (f\"    v = 4/3*PI*float(r)**3\\n\")\nv = 4/3*PI*float(r)**3\nprint (f\"El valor del volumen es: \",round(v,2),\"\\n\")",
+        "detail": "2.Ejs_Expresiones_Operadores_Aritmeticos.Ejercicio_4",
+        "documentation": {}
+    },
+    {
+        "label": "v",
+        "kind": 5,
+        "importPath": "2.Ejs_Expresiones_Operadores_Aritmeticos.Ejercicio_4",
+        "description": "2.Ejs_Expresiones_Operadores_Aritmeticos.Ejercicio_4",
+        "peekOfCode": "v = 4/3*PI*float(r)**3\nprint (f\"El valor del volumen es: \",round(v,2),\"\\n\")",
+        "detail": "2.Ejs_Expresiones_Operadores_Aritmeticos.Ejercicio_4",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "2.Ejs_Expresiones_Operadores_Aritmeticos.Ejercicio_5",
+        "description": "2.Ejs_Expresiones_Operadores_Aritmeticos.Ejercicio_5",
+        "peekOfCode": "c = input(\"\\n¿Introduzca cantidad de grados?\\n\")\nk = float(c) + 273\nf = float(c) * 18/10 +32\nprint (f\"El valor en grados Kelvin es: \",round(k,2),\"\\n\")\nprint (f\"El valor en grados Kelvin es: \",round(f,2),\"\\n\")\n34",
+        "detail": "2.Ejs_Expresiones_Operadores_Aritmeticos.Ejercicio_5",
+        "documentation": {}
+    },
+    {
+        "label": "k",
+        "kind": 5,
+        "importPath": "2.Ejs_Expresiones_Operadores_Aritmeticos.Ejercicio_5",
+        "description": "2.Ejs_Expresiones_Operadores_Aritmeticos.Ejercicio_5",
+        "peekOfCode": "k = float(c) + 273\nf = float(c) * 18/10 +32\nprint (f\"El valor en grados Kelvin es: \",round(k,2),\"\\n\")\nprint (f\"El valor en grados Kelvin es: \",round(f,2),\"\\n\")\n34",
+        "detail": "2.Ejs_Expresiones_Operadores_Aritmeticos.Ejercicio_5",
+        "documentation": {}
+    },
+    {
+        "label": "f",
+        "kind": 5,
+        "importPath": "2.Ejs_Expresiones_Operadores_Aritmeticos.Ejercicio_5",
+        "description": "2.Ejs_Expresiones_Operadores_Aritmeticos.Ejercicio_5",
+        "peekOfCode": "f = float(c) * 18/10 +32\nprint (f\"El valor en grados Kelvin es: \",round(k,2),\"\\n\")\nprint (f\"El valor en grados Kelvin es: \",round(f,2),\"\\n\")\n34",
+        "detail": "2.Ejs_Expresiones_Operadores_Aritmeticos.Ejercicio_5",
+        "documentation": {}
+    },
+    {
+        "label": "print(f\"u",
+        "kind": 5,
+        "importPath": "3.Ejs_Estructuras_Condicionales.Ejercicio_1",
+        "description": "3.Ejs_Estructuras_Condicionales.Ejercicio_1",
+        "peekOfCode": "print(f\"u = input('¿Introduzca su contraseña?\\n')\")\nprint (f\"La variable > u < almacenará la respuesta del usuario\\n\")\nprint (f\"Por último, se creará la estructura condicional que comparará la contraseña almacenada y la respuesta de la usuario\\n\")\nprint(\"\"\"       if(p != u):\n                  print (\"Algo ha ido mal...la contraseña no coincide\")\n                else:\n                  print (\"Contraseña correcta: \",u)\\n\\n\"\"\")\np = \"password\" \nu = input(\"¿Introduzca su contraseña?\\n\")\nif (p != u):",
+        "detail": "3.Ejs_Estructuras_Condicionales.Ejercicio_1",
+        "documentation": {}
+    },
+    {
+        "label": "p",
+        "kind": 5,
+        "importPath": "3.Ejs_Estructuras_Condicionales.Ejercicio_1",
+        "description": "3.Ejs_Estructuras_Condicionales.Ejercicio_1",
+        "peekOfCode": "p = \"password\" \nu = input(\"¿Introduzca su contraseña?\\n\")\nif (p != u):\n    print(\"Algo ha ido mal...la contraseña no coincide\")\nelse:\n    print (\"Contraseña correcta: \",u)",
+        "detail": "3.Ejs_Estructuras_Condicionales.Ejercicio_1",
+        "documentation": {}
+    },
+    {
+        "label": "u",
+        "kind": 5,
+        "importPath": "3.Ejs_Estructuras_Condicionales.Ejercicio_1",
+        "description": "3.Ejs_Estructuras_Condicionales.Ejercicio_1",
+        "peekOfCode": "u = input(\"¿Introduzca su contraseña?\\n\")\nif (p != u):\n    print(\"Algo ha ido mal...la contraseña no coincide\")\nelse:\n    print (\"Contraseña correcta: \",u)",
+        "detail": "3.Ejs_Estructuras_Condicionales.Ejercicio_1",
+        "documentation": {}
+    },
+    {
+        "label": "divs",
+        "kind": 5,
+        "importPath": "3.Ejs_Estructuras_Condicionales.Ejercicio_2",
+        "description": "3.Ejs_Estructuras_Condicionales.Ejercicio_2",
+        "peekOfCode": "divs = input(\"Introduzca el primer valor numérico:\\n\")\ndivn = input(\"Introduzca el segundo valor numérico:\\n\")\n# Convertir los inputs a float\nprint (f\"divs = float(divs)\")\nprint (f\"divn = float(divn)\\n\")\ndivs = float(divs)\ndivn = float(divn)\nprint (\"\"\"\\nA continuación, el programa realizará la operación de división entre ambos valores.\n                - El resultado será almacenado una variable llamada > rest <\n                - La fórmula será la siguiente: ",
+        "detail": "3.Ejs_Estructuras_Condicionales.Ejercicio_2",
+        "documentation": {}
+    },
+    {
+        "label": "divn",
+        "kind": 5,
+        "importPath": "3.Ejs_Estructuras_Condicionales.Ejercicio_2",
+        "description": "3.Ejs_Estructuras_Condicionales.Ejercicio_2",
+        "peekOfCode": "divn = input(\"Introduzca el segundo valor numérico:\\n\")\n# Convertir los inputs a float\nprint (f\"divs = float(divs)\")\nprint (f\"divn = float(divn)\\n\")\ndivs = float(divs)\ndivn = float(divn)\nprint (\"\"\"\\nA continuación, el programa realizará la operación de división entre ambos valores.\n                - El resultado será almacenado una variable llamada > rest <\n                - La fórmula será la siguiente: \n                        -> rest = divs / divn\"\"\")",
+        "detail": "3.Ejs_Estructuras_Condicionales.Ejercicio_2",
+        "documentation": {}
+    },
+    {
+        "label": "divs",
+        "kind": 5,
+        "importPath": "3.Ejs_Estructuras_Condicionales.Ejercicio_2",
+        "description": "3.Ejs_Estructuras_Condicionales.Ejercicio_2",
+        "peekOfCode": "divs = float(divs)\ndivn = float(divn)\nprint (\"\"\"\\nA continuación, el programa realizará la operación de división entre ambos valores.\n                - El resultado será almacenado una variable llamada > rest <\n                - La fórmula será la siguiente: \n                        -> rest = divs / divn\"\"\")\nprint (f\"Por último, el programa hará el tratamiento respectivo a las condicionantes interpuestas para el resultado del ejercicio\")\nprint(\"\"\"       if(divs == 0):\n                  print (\"Error: El valor de dividir por CERO\")\n                elif(divn == 0):",
+        "detail": "3.Ejs_Estructuras_Condicionales.Ejercicio_2",
+        "documentation": {}
+    },
+    {
+        "label": "divn",
+        "kind": 5,
+        "importPath": "3.Ejs_Estructuras_Condicionales.Ejercicio_2",
+        "description": "3.Ejs_Estructuras_Condicionales.Ejercicio_2",
+        "peekOfCode": "divn = float(divn)\nprint (\"\"\"\\nA continuación, el programa realizará la operación de división entre ambos valores.\n                - El resultado será almacenado una variable llamada > rest <\n                - La fórmula será la siguiente: \n                        -> rest = divs / divn\"\"\")\nprint (f\"Por último, el programa hará el tratamiento respectivo a las condicionantes interpuestas para el resultado del ejercicio\")\nprint(\"\"\"       if(divs == 0):\n                  print (\"Error: El valor de dividir por CERO\")\n                elif(divn == 0):\n                  print (\"Error: El valor de dividir por CERO\")",
+        "detail": "3.Ejs_Estructuras_Condicionales.Ejercicio_2",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "3.Ejs_Estructuras_Condicionales.Ejercicio_3",
+        "description": "3.Ejs_Estructuras_Condicionales.Ejercicio_3",
+        "peekOfCode": "num = input(\"Introduzca un valor numérico:\\n\")\n# Convertir los inputs a int\nprint (f\"num = int(num)\\n\")\nnum = int(num)\nprint (f\"Por último, el programa hará el tratamiento respectivo a las condicionantes interpuestas para el resultado del ejercicio.\\n\")\nprint(\"\"\"Si el número introducido por el usuario es divisible por 2:\n            if(num % 2 == 0):\n                  print (\"EL número introducido es par\")\n        De lo contrario:\n            else:",
+        "detail": "3.Ejs_Estructuras_Condicionales.Ejercicio_3",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "3.Ejs_Estructuras_Condicionales.Ejercicio_3",
+        "description": "3.Ejs_Estructuras_Condicionales.Ejercicio_3",
+        "peekOfCode": "num = int(num)\nprint (f\"Por último, el programa hará el tratamiento respectivo a las condicionantes interpuestas para el resultado del ejercicio.\\n\")\nprint(\"\"\"Si el número introducido por el usuario es divisible por 2:\n            if(num % 2 == 0):\n                  print (\"EL número introducido es par\")\n        De lo contrario:\n            else:\n                  print (\"ERROR: El número introducido no es un número entero: \",num)\\n\\n\"\"\")\n# Estructura condicional para verificar si es par o impar\nif(num % 2 == 0):",
+        "detail": "3.Ejs_Estructuras_Condicionales.Ejercicio_3",
+        "documentation": {}
+    },
+    {
+        "label": "vegetariana",
+        "kind": 5,
+        "importPath": "3.Ejs_Estructuras_Condicionales.Ejercicio_4",
+        "description": "3.Ejs_Estructuras_Condicionales.Ejercicio_4",
+        "peekOfCode": "vegetariana = \"v\"\nresto = \"r\"\n# Ingredientes disponibles para cada tipo de pizza con valores numéricos\ningredientesVeg = \"Pimiento, Cebolla, Champiñones\"\ningredientesRes = \"Pepperoni, Jamón, Atún\"\n# Petición al usuario para elegir el tipo de pizza\nu = input(\"Realice su pedido (v para vegetariana, r para resto): \")\nif (u == vegetariana):\n    print(\"Ha seleccionado una pizza vegetariana.\")\n    print(\"Puede elegir entre los siguientes ingredientes:\")",
+        "detail": "3.Ejs_Estructuras_Condicionales.Ejercicio_4",
+        "documentation": {}
+    },
+    {
+        "label": "resto",
+        "kind": 5,
+        "importPath": "3.Ejs_Estructuras_Condicionales.Ejercicio_4",
+        "description": "3.Ejs_Estructuras_Condicionales.Ejercicio_4",
+        "peekOfCode": "resto = \"r\"\n# Ingredientes disponibles para cada tipo de pizza con valores numéricos\ningredientesVeg = \"Pimiento, Cebolla, Champiñones\"\ningredientesRes = \"Pepperoni, Jamón, Atún\"\n# Petición al usuario para elegir el tipo de pizza\nu = input(\"Realice su pedido (v para vegetariana, r para resto): \")\nif (u == vegetariana):\n    print(\"Ha seleccionado una pizza vegetariana.\")\n    print(\"Puede elegir entre los siguientes ingredientes:\")\n    print(\"1: Pimiento\")",
+        "detail": "3.Ejs_Estructuras_Condicionales.Ejercicio_4",
+        "documentation": {}
+    },
+    {
+        "label": "ingredientesVeg",
+        "kind": 5,
+        "importPath": "3.Ejs_Estructuras_Condicionales.Ejercicio_4",
+        "description": "3.Ejs_Estructuras_Condicionales.Ejercicio_4",
+        "peekOfCode": "ingredientesVeg = \"Pimiento, Cebolla, Champiñones\"\ningredientesRes = \"Pepperoni, Jamón, Atún\"\n# Petición al usuario para elegir el tipo de pizza\nu = input(\"Realice su pedido (v para vegetariana, r para resto): \")\nif (u == vegetariana):\n    print(\"Ha seleccionado una pizza vegetariana.\")\n    print(\"Puede elegir entre los siguientes ingredientes:\")\n    print(\"1: Pimiento\")\n    print(\"2: Cebolla\")\n    print(\"3: Champiñones\")",
+        "detail": "3.Ejs_Estructuras_Condicionales.Ejercicio_4",
+        "documentation": {}
+    },
+    {
+        "label": "ingredientesRes",
+        "kind": 5,
+        "importPath": "3.Ejs_Estructuras_Condicionales.Ejercicio_4",
+        "description": "3.Ejs_Estructuras_Condicionales.Ejercicio_4",
+        "peekOfCode": "ingredientesRes = \"Pepperoni, Jamón, Atún\"\n# Petición al usuario para elegir el tipo de pizza\nu = input(\"Realice su pedido (v para vegetariana, r para resto): \")\nif (u == vegetariana):\n    print(\"Ha seleccionado una pizza vegetariana.\")\n    print(\"Puede elegir entre los siguientes ingredientes:\")\n    print(\"1: Pimiento\")\n    print(\"2: Cebolla\")\n    print(\"3: Champiñones\")\n    # Preguntar al usuario cuántos ingredientes quiere",
+        "detail": "3.Ejs_Estructuras_Condicionales.Ejercicio_4",
+        "documentation": {}
+    },
+    {
+        "label": "u",
+        "kind": 5,
+        "importPath": "3.Ejs_Estructuras_Condicionales.Ejercicio_4",
+        "description": "3.Ejs_Estructuras_Condicionales.Ejercicio_4",
+        "peekOfCode": "u = input(\"Realice su pedido (v para vegetariana, r para resto): \")\nif (u == vegetariana):\n    print(\"Ha seleccionado una pizza vegetariana.\")\n    print(\"Puede elegir entre los siguientes ingredientes:\")\n    print(\"1: Pimiento\")\n    print(\"2: Cebolla\")\n    print(\"3: Champiñones\")\n    # Preguntar al usuario cuántos ingredientes quiere\n    numIng = int(input(\"¿Cuántos ingredientes quiere en su pizza? (1-3): \"))\n    if (numIng == 1):",
+        "detail": "3.Ejs_Estructuras_Condicionales.Ejercicio_4",
+        "documentation": {}
+    },
+    {
+        "label": "dni",
+        "kind": 5,
+        "importPath": "3.Ejs_Estructuras_Condicionales.Ejercicio_5",
+        "description": "3.Ejs_Estructuras_Condicionales.Ejercicio_5",
+        "peekOfCode": "dni = int(input(\"Introduce el número de tu DNI (sin letra): \"))\nletra = input(\"Introduce la letra de tu DNI: \").upper()\nprint (f\"Calcular el índice para la letra correcta:   ->  indice = dni % 23  \\n\\n\")\n# Calcular el índice para la letra correcta\nindice = dni % 23\nprint('''Asignar la letra correspondiente al índice usando condicionales\n                        if indice == 0:\n                                correcta = \"T\"\n                        elif indice == 1:\n                                correcta = \"R\"",
+        "detail": "3.Ejs_Estructuras_Condicionales.Ejercicio_5",
+        "documentation": {}
+    },
+    {
+        "label": "letra",
+        "kind": 5,
+        "importPath": "3.Ejs_Estructuras_Condicionales.Ejercicio_5",
+        "description": "3.Ejs_Estructuras_Condicionales.Ejercicio_5",
+        "peekOfCode": "letra = input(\"Introduce la letra de tu DNI: \").upper()\nprint (f\"Calcular el índice para la letra correcta:   ->  indice = dni % 23  \\n\\n\")\n# Calcular el índice para la letra correcta\nindice = dni % 23\nprint('''Asignar la letra correspondiente al índice usando condicionales\n                        if indice == 0:\n                                correcta = \"T\"\n                        elif indice == 1:\n                                correcta = \"R\"\n                        elif indice == 2:",
+        "detail": "3.Ejs_Estructuras_Condicionales.Ejercicio_5",
+        "documentation": {}
+    },
+    {
+        "label": "indice",
+        "kind": 5,
+        "importPath": "3.Ejs_Estructuras_Condicionales.Ejercicio_5",
+        "description": "3.Ejs_Estructuras_Condicionales.Ejercicio_5",
+        "peekOfCode": "indice = dni % 23\nprint('''Asignar la letra correspondiente al índice usando condicionales\n                        if indice == 0:\n                                correcta = \"T\"\n                        elif indice == 1:\n                                correcta = \"R\"\n                        elif indice == 2:\n                                correcta = \"W\"\n                        elif indice == 3:\n                                correcta = \"A\"",
+        "detail": "3.Ejs_Estructuras_Condicionales.Ejercicio_5",
+        "documentation": {}
+    },
+    {
+        "label": "pD",
+        "kind": 5,
+        "importPath": "Ejs_Extras.Ejercicio_1",
+        "description": "Ejs_Extras.Ejercicio_1",
+        "peekOfCode": "pD = 3.49\nprint (f\"El precio habitual del trozo de pizza: \", pD)\ndif = (pD*60)/100\nprint (f\"El descuento aplicado en algunos sabores es del 60% \",round(dif,2),\"\\n\")\npN = pD - round(dif,2)\nprint(f\"El precio de esos trozos de pizza con descuento es: \",round(pN,2),\"\\n\")\ntD = input(\"\\n¿Introduzca cantidad de unidades trozos vendidos del día?\\n\")\ntD = int(tD)*pD\nnD = input(\"\\n¿Introduzca cantidad de unidades trozos vendidos no frescos?\\n\")\nnD = int(nD)*pN",
+        "detail": "Ejs_Extras.Ejercicio_1",
+        "documentation": {}
+    },
+    {
+        "label": "dif",
+        "kind": 5,
+        "importPath": "Ejs_Extras.Ejercicio_1",
+        "description": "Ejs_Extras.Ejercicio_1",
+        "peekOfCode": "dif = (pD*60)/100\nprint (f\"El descuento aplicado en algunos sabores es del 60% \",round(dif,2),\"\\n\")\npN = pD - round(dif,2)\nprint(f\"El precio de esos trozos de pizza con descuento es: \",round(pN,2),\"\\n\")\ntD = input(\"\\n¿Introduzca cantidad de unidades trozos vendidos del día?\\n\")\ntD = int(tD)*pD\nnD = input(\"\\n¿Introduzca cantidad de unidades trozos vendidos no frescos?\\n\")\nnD = int(nD)*pN\ntF = float(tD) + float(nD)\nprint (f\"LA VENTA DE TROZOS DEL DÍA: \", round(tD,2),\"\\n\")",
+        "detail": "Ejs_Extras.Ejercicio_1",
+        "documentation": {}
+    },
+    {
+        "label": "pN",
+        "kind": 5,
+        "importPath": "Ejs_Extras.Ejercicio_1",
+        "description": "Ejs_Extras.Ejercicio_1",
+        "peekOfCode": "pN = pD - round(dif,2)\nprint(f\"El precio de esos trozos de pizza con descuento es: \",round(pN,2),\"\\n\")\ntD = input(\"\\n¿Introduzca cantidad de unidades trozos vendidos del día?\\n\")\ntD = int(tD)*pD\nnD = input(\"\\n¿Introduzca cantidad de unidades trozos vendidos no frescos?\\n\")\nnD = int(nD)*pN\ntF = float(tD) + float(nD)\nprint (f\"LA VENTA DE TROZOS DEL DÍA: \", round(tD,2),\"\\n\")\nprint (f\"LA VENTA DE TROZOS CON DESCUENTO: \", round(nD,2),\"\\n\")\nprint (f\"LA VENTA TOTAL: \",round(tF,2),\"\\n\")",
+        "detail": "Ejs_Extras.Ejercicio_1",
+        "documentation": {}
+    },
+    {
+        "label": "tD",
+        "kind": 5,
+        "importPath": "Ejs_Extras.Ejercicio_1",
+        "description": "Ejs_Extras.Ejercicio_1",
+        "peekOfCode": "tD = input(\"\\n¿Introduzca cantidad de unidades trozos vendidos del día?\\n\")\ntD = int(tD)*pD\nnD = input(\"\\n¿Introduzca cantidad de unidades trozos vendidos no frescos?\\n\")\nnD = int(nD)*pN\ntF = float(tD) + float(nD)\nprint (f\"LA VENTA DE TROZOS DEL DÍA: \", round(tD,2),\"\\n\")\nprint (f\"LA VENTA DE TROZOS CON DESCUENTO: \", round(nD,2),\"\\n\")\nprint (f\"LA VENTA TOTAL: \",round(tF,2),\"\\n\")",
+        "detail": "Ejs_Extras.Ejercicio_1",
+        "documentation": {}
+    },
+    {
+        "label": "tD",
+        "kind": 5,
+        "importPath": "Ejs_Extras.Ejercicio_1",
+        "description": "Ejs_Extras.Ejercicio_1",
+        "peekOfCode": "tD = int(tD)*pD\nnD = input(\"\\n¿Introduzca cantidad de unidades trozos vendidos no frescos?\\n\")\nnD = int(nD)*pN\ntF = float(tD) + float(nD)\nprint (f\"LA VENTA DE TROZOS DEL DÍA: \", round(tD,2),\"\\n\")\nprint (f\"LA VENTA DE TROZOS CON DESCUENTO: \", round(nD,2),\"\\n\")\nprint (f\"LA VENTA TOTAL: \",round(tF,2),\"\\n\")",
+        "detail": "Ejs_Extras.Ejercicio_1",
+        "documentation": {}
+    },
+    {
+        "label": "nD",
+        "kind": 5,
+        "importPath": "Ejs_Extras.Ejercicio_1",
+        "description": "Ejs_Extras.Ejercicio_1",
+        "peekOfCode": "nD = input(\"\\n¿Introduzca cantidad de unidades trozos vendidos no frescos?\\n\")\nnD = int(nD)*pN\ntF = float(tD) + float(nD)\nprint (f\"LA VENTA DE TROZOS DEL DÍA: \", round(tD,2),\"\\n\")\nprint (f\"LA VENTA DE TROZOS CON DESCUENTO: \", round(nD,2),\"\\n\")\nprint (f\"LA VENTA TOTAL: \",round(tF,2),\"\\n\")",
+        "detail": "Ejs_Extras.Ejercicio_1",
+        "documentation": {}
+    },
+    {
+        "label": "nD",
+        "kind": 5,
+        "importPath": "Ejs_Extras.Ejercicio_1",
+        "description": "Ejs_Extras.Ejercicio_1",
+        "peekOfCode": "nD = int(nD)*pN\ntF = float(tD) + float(nD)\nprint (f\"LA VENTA DE TROZOS DEL DÍA: \", round(tD,2),\"\\n\")\nprint (f\"LA VENTA DE TROZOS CON DESCUENTO: \", round(nD,2),\"\\n\")\nprint (f\"LA VENTA TOTAL: \",round(tF,2),\"\\n\")",
+        "detail": "Ejs_Extras.Ejercicio_1",
+        "documentation": {}
+    },
+    {
+        "label": "tF",
+        "kind": 5,
+        "importPath": "Ejs_Extras.Ejercicio_1",
+        "description": "Ejs_Extras.Ejercicio_1",
+        "peekOfCode": "tF = float(tD) + float(nD)\nprint (f\"LA VENTA DE TROZOS DEL DÍA: \", round(tD,2),\"\\n\")\nprint (f\"LA VENTA DE TROZOS CON DESCUENTO: \", round(nD,2),\"\\n\")\nprint (f\"LA VENTA TOTAL: \",round(tF,2),\"\\n\")",
+        "detail": "Ejs_Extras.Ejercicio_1",
+        "documentation": {}
+    },
+    {
+        "label": "p",
+        "kind": 5,
+        "importPath": "Ejs_Extras.Ejercicio_2",
+        "description": "Ejs_Extras.Ejercicio_2",
+        "peekOfCode": "p = 112\nm = 75\nprint (f\" - La variable que almacenará el peso total de los payasos vendidos será > cP <\")\nprint (f\" - La variable que almacenará el peso total de los payasos vendidos será > cM <\\n\")\nprint (f\"Ahora el programa pedirá al usuario que introduzca las cantidades vendidas para cada producto\")\nprint (f\"Por tanto, deberán crearse 2 input, 1 para cada producto.\\n\")\nprint (f\"cP = input(¿Introduzca cantidad de unidades vendidas de payasos?)\")\nprint (f\"cM = input(¿Introduzca cantidad de unidades vendidas de muñecas?)\\n\")\ncP = input(\"\\n¿Introduzca cantidad de unidades vendidas de payasos?\\n\")\ncM = input(\"\\n¿Introduzca cantidad de unidades vendidas de muñecas?\\n\")",
+        "detail": "Ejs_Extras.Ejercicio_2",
+        "documentation": {}
+    },
+    {
+        "label": "m",
+        "kind": 5,
+        "importPath": "Ejs_Extras.Ejercicio_2",
+        "description": "Ejs_Extras.Ejercicio_2",
+        "peekOfCode": "m = 75\nprint (f\" - La variable que almacenará el peso total de los payasos vendidos será > cP <\")\nprint (f\" - La variable que almacenará el peso total de los payasos vendidos será > cM <\\n\")\nprint (f\"Ahora el programa pedirá al usuario que introduzca las cantidades vendidas para cada producto\")\nprint (f\"Por tanto, deberán crearse 2 input, 1 para cada producto.\\n\")\nprint (f\"cP = input(¿Introduzca cantidad de unidades vendidas de payasos?)\")\nprint (f\"cM = input(¿Introduzca cantidad de unidades vendidas de muñecas?)\\n\")\ncP = input(\"\\n¿Introduzca cantidad de unidades vendidas de payasos?\\n\")\ncM = input(\"\\n¿Introduzca cantidad de unidades vendidas de muñecas?\\n\")\nprint (f\"\\nA continuación, el programa realizará el cálculo de cada peso total por producto.\")",
+        "detail": "Ejs_Extras.Ejercicio_2",
+        "documentation": {}
+    },
+    {
+        "label": "cP",
+        "kind": 5,
+        "importPath": "Ejs_Extras.Ejercicio_2",
+        "description": "Ejs_Extras.Ejercicio_2",
+        "peekOfCode": "cP = input(\"\\n¿Introduzca cantidad de unidades vendidas de payasos?\\n\")\ncM = input(\"\\n¿Introduzca cantidad de unidades vendidas de muñecas?\\n\")\nprint (f\"\\nA continuación, el programa realizará el cálculo de cada peso total por producto.\")\nprint (f\"La variable que almacenará el peso total de los payasos vendidos será > pT <\")\nprint (f\"La variable que almacenará el peso total de los payasos vendidos será > mT <\")\nprint (f\"Las fórmulas serán:\\n\")\nprint (f\"      - pT = p * int(cP)\\n\")\nprint (f\"      - mT = m * int(cM)\\n\")\npT = p*int(cP)\nmT = m*int(cM)",
+        "detail": "Ejs_Extras.Ejercicio_2",
+        "documentation": {}
+    },
+    {
+        "label": "cM",
+        "kind": 5,
+        "importPath": "Ejs_Extras.Ejercicio_2",
+        "description": "Ejs_Extras.Ejercicio_2",
+        "peekOfCode": "cM = input(\"\\n¿Introduzca cantidad de unidades vendidas de muñecas?\\n\")\nprint (f\"\\nA continuación, el programa realizará el cálculo de cada peso total por producto.\")\nprint (f\"La variable que almacenará el peso total de los payasos vendidos será > pT <\")\nprint (f\"La variable que almacenará el peso total de los payasos vendidos será > mT <\")\nprint (f\"Las fórmulas serán:\\n\")\nprint (f\"      - pT = p * int(cP)\\n\")\nprint (f\"      - mT = m * int(cM)\\n\")\npT = p*int(cP)\nmT = m*int(cM)\nprint (f\"Por último, sumaremos los pesos totales de ambos productos para obtener el resultado buscado.\\n\")",
+        "detail": "Ejs_Extras.Ejercicio_2",
+        "documentation": {}
+    },
+    {
+        "label": "pT",
+        "kind": 5,
+        "importPath": "Ejs_Extras.Ejercicio_2",
+        "description": "Ejs_Extras.Ejercicio_2",
+        "peekOfCode": "pT = p*int(cP)\nmT = m*int(cM)\nprint (f\"Por último, sumaremos los pesos totales de ambos productos para obtener el resultado buscado.\\n\")\nprint (f\"La fórmula será:\\n\")\nprint (f\"    -  total = pT + mT \\n\")\ntotal = pT + mT\nprint (f\"El peso total del paquete que será enviado: \",total,\"\\n\")",
+        "detail": "Ejs_Extras.Ejercicio_2",
+        "documentation": {}
+    },
+    {
+        "label": "mT",
+        "kind": 5,
+        "importPath": "Ejs_Extras.Ejercicio_2",
+        "description": "Ejs_Extras.Ejercicio_2",
+        "peekOfCode": "mT = m*int(cM)\nprint (f\"Por último, sumaremos los pesos totales de ambos productos para obtener el resultado buscado.\\n\")\nprint (f\"La fórmula será:\\n\")\nprint (f\"    -  total = pT + mT \\n\")\ntotal = pT + mT\nprint (f\"El peso total del paquete que será enviado: \",total,\"\\n\")",
+        "detail": "Ejs_Extras.Ejercicio_2",
+        "documentation": {}
+    },
+    {
+        "label": "total",
+        "kind": 5,
+        "importPath": "Ejs_Extras.Ejercicio_2",
+        "description": "Ejs_Extras.Ejercicio_2",
+        "peekOfCode": "total = pT + mT\nprint (f\"El peso total del paquete que será enviado: \",total,\"\\n\")",
+        "detail": "Ejs_Extras.Ejercicio_2",
+        "documentation": {}
+    },
+    {
+        "label": "p",
+        "kind": 5,
+        "importPath": "Ejs_Extras.Ejercicio_3",
+        "description": "Ejs_Extras.Ejercicio_3",
+        "peekOfCode": "p = input(\"¿Introduzca su peso?\\n\")\ne = input(\"\\n¿Introduzca su estatura?\\n\")\nprint (f\"El programa mostrará los datos introducidos por el usuario\")\nprint (f\"Sus datos introducidos son:\")\nprint (\"        - Su peso: \",p)\nprint (\"        - Su estatura: \",e)\nprint (f\"\\nPor último, el programa calculará el índice de masa corporal del usuario y lo redondeará a 2 decimales\")\nimc = (float(p)/float(e))**2\nprint (f\"Su índice de masa corporal es: \", round(imc,2),\"\\n\")",
+        "detail": "Ejs_Extras.Ejercicio_3",
+        "documentation": {}
+    },
+    {
+        "label": "e",
+        "kind": 5,
+        "importPath": "Ejs_Extras.Ejercicio_3",
+        "description": "Ejs_Extras.Ejercicio_3",
+        "peekOfCode": "e = input(\"\\n¿Introduzca su estatura?\\n\")\nprint (f\"El programa mostrará los datos introducidos por el usuario\")\nprint (f\"Sus datos introducidos son:\")\nprint (\"        - Su peso: \",p)\nprint (\"        - Su estatura: \",e)\nprint (f\"\\nPor último, el programa calculará el índice de masa corporal del usuario y lo redondeará a 2 decimales\")\nimc = (float(p)/float(e))**2\nprint (f\"Su índice de masa corporal es: \", round(imc,2),\"\\n\")",
+        "detail": "Ejs_Extras.Ejercicio_3",
+        "documentation": {}
+    },
+    {
+        "label": "imc",
+        "kind": 5,
+        "importPath": "Ejs_Extras.Ejercicio_3",
+        "description": "Ejs_Extras.Ejercicio_3",
+        "peekOfCode": "imc = (float(p)/float(e))**2\nprint (f\"Su índice de masa corporal es: \", round(imc,2),\"\\n\")",
+        "detail": "Ejs_Extras.Ejercicio_3",
+        "documentation": {}
+    }
+]
