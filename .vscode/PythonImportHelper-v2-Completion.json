@@ -468,6 +468,114 @@
         "documentation": {}
     },
     {
+        "label": "num",
+        "kind": 5,
+        "importPath": "4.Ejs_Estructuras_Repetitivas.Ejs_FOR.Ejercicio_3",
+        "description": "4.Ejs_Estructuras_Repetitivas.Ejs_FOR.Ejercicio_3",
+        "peekOfCode": "num = int(input(\"Introduce un número para mostrar su tabla de multiplicar: \\n\"))\n# Imprimir la tabla de multiplicar usando un bucle for\nprint(f\"\\nTabla de multiplicar del\", num,\":\\n\")\nfor i in range(1, 11):\n        resultado = num * i\n        print(\"->\",num, \"x\", i, \"=\", resultado)",
+        "detail": "4.Ejs_Estructuras_Repetitivas.Ejs_FOR.Ejercicio_3",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "4.Ejs_Estructuras_Repetitivas.Ejs_FOR.Ejercicio_4",
+        "description": "4.Ejs_Estructuras_Repetitivas.Ejs_FOR.Ejercicio_4",
+        "peekOfCode": "num = int(input(\"Introduce un número: \\n\"))\n# Mostrar los números en orden inverso hasta 0 usando un bucle for\nprint(f\"\\nNúmeros en orden inverso desde \",num,\" hasta  0:\")\nfor i in range(num, -1, -1):\n        print(i,end=\" \")         # Para mostrar en un sola línea la secuencia numérica, se añade   > end= \" \" <",
+        "detail": "4.Ejs_Estructuras_Repetitivas.Ejs_FOR.Ejercicio_4",
+        "documentation": {}
+    },
+    {
+        "label": "PIN_SECRETO",
+        "kind": 5,
+        "importPath": "4.Ejs_Estructuras_Repetitivas.Ejs_FOR.Ejercicio_5",
+        "description": "4.Ejs_Estructuras_Repetitivas.Ejs_FOR.Ejercicio_5",
+        "peekOfCode": "PIN_SECRETO = \"1234\"\n# Número máximo de intentos\nMAX_INTENTOS = 3\n# Proceso de desbloqueo usando un bucle for\nfor intento in range(MAX_INTENTOS):\n    # Pedir al usuario que introduzca el PIN\n        u = input(\"Introduce el PIN para desbloquear la pantalla: \")\n    # Verificar si el PIN es correcto\n        if u == PIN_SECRETO:\n                print(\"Login correcto.\")",
+        "detail": "4.Ejs_Estructuras_Repetitivas.Ejs_FOR.Ejercicio_5",
+        "documentation": {}
+    },
+    {
+        "label": "MAX_INTENTOS",
+        "kind": 5,
+        "importPath": "4.Ejs_Estructuras_Repetitivas.Ejs_FOR.Ejercicio_5",
+        "description": "4.Ejs_Estructuras_Repetitivas.Ejs_FOR.Ejercicio_5",
+        "peekOfCode": "MAX_INTENTOS = 3\n# Proceso de desbloqueo usando un bucle for\nfor intento in range(MAX_INTENTOS):\n    # Pedir al usuario que introduzca el PIN\n        u = input(\"Introduce el PIN para desbloquear la pantalla: \")\n    # Verificar si el PIN es correcto\n        if u == PIN_SECRETO:\n                print(\"Login correcto.\")\n                break\n        else:",
+        "detail": "4.Ejs_Estructuras_Repetitivas.Ejs_FOR.Ejercicio_5",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "4.Ejs_Estructuras_Repetitivas.Ejs_WHILE.Ejercicio_1",
+        "description": "4.Ejs_Estructuras_Repetitivas.Ejs_WHILE.Ejercicio_1",
+        "peekOfCode": "num = 1\nprint(f\"Este bucle empleado mostrará la secuencia numérica pero cada número ocupará una línea.\")\nprint(\"\"\"\n      1. Condición del bucle: El bucle continuará mientras numero sea menor o igual a 10:\n                -> while (num <= 10):\n                        print(num)\n                        num += 1      2. Incremento: Después de cada iteración, se incrementa el valor de numero en 1.\n                \\n\"\"\")\n# Bucle while para imprimir los números del 1 al 10, pero cada número ocupará una línea.\nwhile (num <= 10):",
+        "detail": "4.Ejs_Estructuras_Repetitivas.Ejs_WHILE.Ejercicio_1",
+        "documentation": {}
+    },
+    {
+        "label": "numero",
+        "kind": 5,
+        "importPath": "4.Ejs_Estructuras_Repetitivas.Ejs_WHILE.Ejercicio_1",
+        "description": "4.Ejs_Estructuras_Repetitivas.Ejs_WHILE.Ejercicio_1",
+        "peekOfCode": "numero = 1\n# Bucle while para imprimir los números del 1 al 10 en una sola línea\nwhile numero <= 10:\n    print(numero, end=\" \")  # Mostrar el número en la misma línea con un espacio\n    numero += 1  # Incrementar el número en 1",
+        "detail": "4.Ejs_Estructuras_Repetitivas.Ejs_WHILE.Ejercicio_1",
+        "documentation": {}
+    },
+    {
+        "label": "suma",
+        "kind": 5,
+        "importPath": "4.Ejs_Estructuras_Repetitivas.Ejs_WHILE.Ejercicio_2",
+        "description": "4.Ejs_Estructuras_Repetitivas.Ejs_WHILE.Ejercicio_2",
+        "peekOfCode": "suma = 0\n# Inicializar la variable para el número ingresado por el usuario\nnumero = int(input(\"Introduce un número (0 para terminar): \"))\n# Bucle while que continúa hasta que se introduce un 0\nwhile numero != 0:\n    suma += numero  # Sumar el número a la variable suma\n    numero = int(input(\"Introduce otro número (0 para terminar): \"))  # Pedir otro número\n# Imprimir la suma total\nprint(\"La suma total es:\", suma)",
+        "detail": "4.Ejs_Estructuras_Repetitivas.Ejs_WHILE.Ejercicio_2",
+        "documentation": {}
+    },
+    {
+        "label": "numero",
+        "kind": 5,
+        "importPath": "4.Ejs_Estructuras_Repetitivas.Ejs_WHILE.Ejercicio_2",
+        "description": "4.Ejs_Estructuras_Repetitivas.Ejs_WHILE.Ejercicio_2",
+        "peekOfCode": "numero = int(input(\"Introduce un número (0 para terminar): \"))\n# Bucle while que continúa hasta que se introduce un 0\nwhile numero != 0:\n    suma += numero  # Sumar el número a la variable suma\n    numero = int(input(\"Introduce otro número (0 para terminar): \"))  # Pedir otro número\n# Imprimir la suma total\nprint(\"La suma total es:\", suma)",
+        "detail": "4.Ejs_Estructuras_Repetitivas.Ejs_WHILE.Ejercicio_2",
+        "documentation": {}
+    },
+    {
+        "label": "contador",
+        "kind": 5,
+        "importPath": "4.Ejs_Estructuras_Repetitivas.Ejs_WHILE.Ejercicio_3",
+        "description": "4.Ejs_Estructuras_Repetitivas.Ejs_WHILE.Ejercicio_3",
+        "peekOfCode": "contador = 0\n# Bucle while que se repite 5 veces\nwhile (contador < 5):\n    numero = int(input(\"Introduce un número: \"))  # Pedir un número al usuario\n    # Comprobar si el número es par o impar\n    if (numero % 2 == 0):\n        print(f\"El número {numero} es par.\")\n    else:\n        print(f\"El número {numero} es impar.\")\n    # Incrementar el contador",
+        "detail": "4.Ejs_Estructuras_Repetitivas.Ejs_WHILE.Ejercicio_3",
+        "documentation": {}
+    },
+    {
+        "label": "numero",
+        "kind": 5,
+        "importPath": "4.Ejs_Estructuras_Repetitivas.Ejs_WHILE.ejercicio_4",
+        "description": "4.Ejs_Estructuras_Repetitivas.Ejs_WHILE.ejercicio_4",
+        "peekOfCode": "numero = int(input(\"Introduce un número: \\n\"))\n# Bucle while que imprime los números en orden inverso\nwhile (numero >= 0):\n    print(numero, end= \" \")\n    numero -= 1  # Restar 1 en cada iteración",
+        "detail": "4.Ejs_Estructuras_Repetitivas.Ejs_WHILE.ejercicio_4",
+        "documentation": {}
+    },
+    {
+        "label": "PIN_SECRETO",
+        "kind": 5,
+        "importPath": "4.Ejs_Estructuras_Repetitivas.Ejs_WHILE.Ejercicio_5",
+        "description": "4.Ejs_Estructuras_Repetitivas.Ejs_WHILE.Ejercicio_5",
+        "peekOfCode": "PIN_SECRETO = \"1234\"\n# Inicializar el número de intentos\nintentos = 0\n# Bucle while para los intentos\nwhile intentos < 3:\n# Pedir al usuario que ingrese el PIN\n        u = input(\"Introduce el PIN para desbloquear: \\n\")\n# Verificar si el PIN es correcto\n        if u == PIN_SECRETO:\n                print(\"Login correcto\")",
+        "detail": "4.Ejs_Estructuras_Repetitivas.Ejs_WHILE.Ejercicio_5",
+        "documentation": {}
+    },
+    {
+        "label": "intentos",
+        "kind": 5,
+        "importPath": "4.Ejs_Estructuras_Repetitivas.Ejs_WHILE.Ejercicio_5",
+        "description": "4.Ejs_Estructuras_Repetitivas.Ejs_WHILE.Ejercicio_5",
+        "peekOfCode": "intentos = 0\n# Bucle while para los intentos\nwhile intentos < 3:\n# Pedir al usuario que ingrese el PIN\n        u = input(\"Introduce el PIN para desbloquear: \\n\")\n# Verificar si el PIN es correcto\n        if u == PIN_SECRETO:\n                print(\"Login correcto\")\n                break  # Salir del bucle si el PIN es correcto\n        else:",
+        "detail": "4.Ejs_Estructuras_Repetitivas.Ejs_WHILE.Ejercicio_5",
+        "documentation": {}
+    },
+    {
         "label": "pD",
         "kind": 5,
         "importPath": "Ejs_Extras.Ejercicio_1",
