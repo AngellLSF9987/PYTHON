@@ -20,8 +20,8 @@ print ("""El programa contará con dos variables que almacenarán si la pizza es
                 -> Variable para el resto de pizzas > r <""")
 
 print ("""El programa contará con dos variables que almacenarán, en una cadena de caracteres, los ingredientes posibles para cada tipo de pizza:\n
-                -> ingVeg = 'Pimiento, Cebolla, Champiñones'
-                -> ingRes = 'Pepperoni, Jamón, Atún'""")
+                -> ingredientesVeg = 'Pimiento, Cebolla, Champiñones'
+                -> ingredientesRes = 'Pepperoni, Jamón, Atún'""")
 
 print ("""El programa pedirá al usuario que elija entre vegetariana o no. Dicha respuesta quedará almacenada en una variable > u <\n""")
 
