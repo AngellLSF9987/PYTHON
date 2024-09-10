@@ -28,13 +28,13 @@ x = int(input("Introduzca la coordenada x (no debe ser 0): \n"))
 y = int(input("Introduzca la coordenada y (no debe ser 0): \n"))
 
 # Determinar el cuadrante según los valores de x e y.
-if x > 0 and y > 0:
+if (x > 0 and y > 0):
     print("El punto está en el primer cuadrante.\n")
-elif x < 0 and y > 0:
+elif (x < 0 and y > 0):
     print("El punto está en el segundo cuadrante.\n")
-elif x < 0 and y < 0:
+elif (x < 0 and y < 0):
     print("El punto está en el tercer cuadrante.\n")
-elif x > 0 and y < 0:
+elif (x > 0 and y < 0):
     print("El punto está en el cuarto cuadrante.\n")
 
 

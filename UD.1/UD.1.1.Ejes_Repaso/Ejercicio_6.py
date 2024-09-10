@@ -78,9 +78,9 @@ while True:
 
 #       Verificación de respuesta: Si la respuesta del usuario no es 'si', el bucle se rompe usando break.
 
-        if continuar != 'si':
+        if (continuar != 'si'):
                         break
 
 # Mostrar la suma de los números
 
-        print("La suma de los números ingresados es:", suma,".")
+        print("La suma de los números ingresados es:", suma,".\n")

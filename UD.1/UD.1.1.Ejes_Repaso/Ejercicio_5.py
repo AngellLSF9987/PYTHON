@@ -40,12 +40,12 @@ num = 1
 
 # Usar un bucle while para imprimir números del 1 al 100
 
-while num <= 100:
+while (num <= 100):
     print(num, end =" ")
     num += 1
 # Punto de ruptura después de imprimir el último número
 
-    if num > 100:
+    if (num > 100):
         break
 
 # Separador para claridad en la salida

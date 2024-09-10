@@ -52,8 +52,8 @@ while True:
     continuar = input("¿Desea ingresar otro número? (si/no): \n").strip().lower()
     
     # Verificar la respuesta del usuario
-    if continuar != 'si':
+    if (continuar != 'si'):
         break
 
 # Mostrar la suma de los números ingresados
-print("La suma de los números ingresados es:", suma)
+print("La suma de los números ingresados es:", suma,".\n")
