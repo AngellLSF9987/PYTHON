@@ -12,19 +12,19 @@ suspensos = 0
 
 # Solicitar 10 notas
 for i in range(10):
-    while True:
-            # Pedir al usuario que ingrese una nota
-            nota = float(input(f"Ingrese la nota del alumno {i + 1}: \n"))
-            # Verificar que la nota esté en el rango válido (0-10)
-            if 0 <= nota <= 10:
+        
+# Pedir al usuario que ingrese una nota
+        nota = float(input(f"Ingrese la nota del alumno {i + 1}: \n"))
+# Verificar que la nota esté en el rango válido (0-10)
+        if 0 <= nota <= 10:
                 break
-            else:
+        else:
                 print("La nota debe estar entre 0 y 10. Inténtelo de nuevo.")
     
     # Contar aprobados y suspensos
-    if nota >= 7:
+if nota >= 7:
         aprobados += 1
-    else:
+else:
         suspensos += 1
 
 # Mostrar resultados
