@@ -15,14 +15,14 @@ print("""
     
     -> Contar '@': Usamos el método .count('@') para contar cuántas veces aparece el carácter '@' en el texto ingresado.
     
-        contador_arroba = email.count('@')
+        count_arroba = email.count('@')
 
 # Verificar si el texto contiene solo un '@'
 
     -> Verificar la cantidad: Si el contador es igual a 1, significa que el correo contiene exactamente un '@'. 
        Si es diferente, no cumple con el criterio.
        
-        if contador_arroba == 1:
+        if count_arroba == 1:
             print("El correo electrónico es válido (contiene solo un '@').")
         else:
             print("El correo electrónico no es válido (debe contener exactamente un '@').")\n\n""")
@@ -31,10 +31,10 @@ print("""
 email = input("Introduce tu correo electrónico: ")
 
 # Contar cuántas veces aparece el carácter '@'
-contador_arroba = email.count('@')
+count_arroba = email.count('@')
 
 # Verificar si el texto contiene solo un '@'
-if contador_arroba == 1:
+if count_arroba == 1:
     print("El correo electrónico es válido (contiene solo un '@').")
 else:
     print("El correo electrónico no es válido (debe contener exactamente un '@').")
