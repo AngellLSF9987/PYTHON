@@ -26,7 +26,7 @@ print("""
         
         break
 
-    -> else:: Si la entrada no es "salir", se muestra el texto introducido por el usuario.
+    -> else: Si la entrada no es "salir", se muestra el texto introducido por el usuario.
 
         else:
 

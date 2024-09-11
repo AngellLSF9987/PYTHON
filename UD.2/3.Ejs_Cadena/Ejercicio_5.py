@@ -8,30 +8,38 @@ y muestre por pantalla cada uno de los productos en una línea distinta."\n""")
 
 print("""
 
-# Solicitar los productos de la cesta al usuario
+while True:
+    productos = input("Introduce los productos de la cesta de la compra, separados por comas (o escribe 'exit' para salir): \n")
+    
+    if productos.lower() == "exit":  # Si el usuario escribe "exit", se sale del bucle
+        print("Has salido de la cesta de la compra.")
+        break
 
-    productos = input("Introduce los productos de la cesta de la compra, separados por comas: ")
-
-# Separar los productos utilizando la coma como delimitador
-
+    # Separar los productos utilizando la coma como delimitador
+    
     lista = productos.split(',')
 
-# Mostrar cada producto en una línea distinta
-
-    print("Los productos en la cesta son:")
-
-    for producto in lista:
+    # Mostrar cada producto en una línea distinta
     
-        print(producto.strip())  # strip() elimina los espacios en blanco al principio y al fina.\n\n""")
+    print("Los productos en la cesta son:\n")
+    
+    for producto in lista:
+        print(producto.strip(), "\n")  # strip() elimina los espacios en blanco al principio y al final.\n\n""")
 
 
-# Solicitar los productos de la cesta al usuario
-productos = input("Introduce los productos de la cesta de la compra, separados por comas: \n")
+while True:
+    productos = input("Introduce los productos de la cesta de la compra, separados por comas (o escribe 'exit' para salir): \n")
+    
+    if productos.lower() == "exit":  # Si el usuario escribe "exit", se sale del bucle
+        print("Has salido de la cesta de la compra.")
+        break
 
-# Separar los productos utilizando la coma como delimitador
-lista = productos.split(',')
+    # Separar los productos utilizando la coma como delimitador
+    lista = productos.split(',')
 
-# Mostrar cada producto en una línea distinta
-print("Los productos en la cesta son:\n")
-for producto in lista:
-    print(producto.strip(),"\n")  # strip() elimina los espacios en blanco al principio y al final
+    # Mostrar cada producto en una línea distinta
+    print("Los productos en la cesta son:\n")
+    
+    for producto in lista:
+        print(producto.strip(), "\n")  # strip() elimina los espacios en blanco al principio y al final
+
