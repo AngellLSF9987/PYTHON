@@ -8,57 +8,61 @@ y muestre por pantalla cada uno de los productos en una línea distinta."\n""")
 
 print("""
 
-productos_totales = []  # Lista para almacenar todos los productos
+total = ""  # Cadena para almacenar todos los productos
 
 while True:
     productos = input("Introduce los productos de la cesta de la compra, separados por comas (o escribe 'exit' para salir): \n")
     
-    if productos.lower() == "exit":  # Si el usuario escribe "exit", se sale del bucle
+    if (productos.lower() == "exit"):  # Si el usuario escribe "exit", se sale del bucle
         print("Has salido de la cesta de la compra.")
         break
 
-    # Separar los productos utilizando la coma como delimitador
-    lista = productos.split(',')
-
-    # Agregar cada producto a la lista total, eliminando espacios extra
-    productos_totales.extend([producto.strip() for producto in lista])
-
-    # Mostrar cada producto en una línea distinta
+    # Mostrar cada producto en una línea distinta, eliminando espacios extra
     print("Los productos en la cesta son:\n")
+    separador = productos.split(',')
     
-    for producto in lista:
-        print(producto.strip(), "\n")  # strip() elimina los espacios en blanco al principio y al final
+    for producto in separador:
+        producto = producto.strip()  # Elimina los espacios en blanco al principio y al final
+        print(producto)
+        
+        # Agregar el producto a la cadena total
+        if (total):
+            total += ", " + producto
+        else:
+            total = producto
 
 # Mostrar la lista final de productos
+    else:
+        print("\nLista final de productos en la cesta:\n")
+        print(total,".\n")\n\n""")
 
-if productos_totales:
-    print("Lista final de productos en la cesta:\n")
-    print(", ".join(productos_totales))  # Mostrar los productos separados por comas.\n\n""")
-
-total = []  # Lista para almacenar todos los productos
+total = ""  # Cadena para almacenar todos los productos
 
 while True:
     productos = input("Introduce los productos de la cesta de la compra, separados por comas (o escribe 'exit' para salir): \n")
     
-    if productos.lower() == "exit":  # Si el usuario escribe "exit", se sale del bucle
+    if (productos.lower() == "exit"):  # Si el usuario escribe "exit", se sale del bucle
         print("Has salido de la cesta de la compra.")
         break
 
-    # Separar los productos utilizando la coma como delimitador
-    lista = productos.split(',')
-
-    # Agregar cada producto a la lista total, eliminando espacios extra
-    total.extend([producto.strip() for producto in lista])
-
-    # Mostrar cada producto en una línea distinta
+    # Mostrar cada producto en una línea distinta, eliminando espacios extra
     print("Los productos en la cesta son:\n")
+    separador = productos.split(',')
     
-    for producto in lista:
-        print(producto.strip(), "\n")  # strip() elimina los espacios en blanco al principio y al final
+    for producto in separador:
+        producto = producto.strip()  # Elimina los espacios en blanco al principio y al final
+        print(producto)
+        
+        # Agregar el producto a la cadena total
+        if (total):
+            total += ", " + producto
+        else:
+            total = producto
 
 # Mostrar la lista final de productos
-if total:
-    print("Lista final de productos en la cesta:\n")
-    print(", ".join(total))  # Mostrar los productos separados por comas
+    else:
+        print("\nLista final de productos en la cesta:\n")
+        print(total,".\n")
+
 
 
