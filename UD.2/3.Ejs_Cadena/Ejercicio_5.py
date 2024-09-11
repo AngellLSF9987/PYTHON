@@ -55,14 +55,14 @@ while True:
         
         # Agregar el producto a la cadena total
         if (total):
-            total += ", " + producto
+            total += ", " + producto +'.'
         else:
             total = producto
 
-# Mostrar la lista final de productos
-    else:
-        print("\nLista final de productos en la cesta:\n")
-        print(total,".\n")
+# Mostrar la lista final de productos después de "exit"
+if (total):
+    print("\nLista final de productos en la cesta:\n")
+    print(total)
 
 
 
