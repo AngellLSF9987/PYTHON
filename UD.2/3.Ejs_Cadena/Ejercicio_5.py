@@ -26,12 +26,12 @@ print("""
 
 
 # Solicitar los productos de la cesta al usuario
-productos = input("Introduce los productos de la cesta de la compra, separados por comas: ")
+productos = input("Introduce los productos de la cesta de la compra, separados por comas: \n")
 
 # Separar los productos utilizando la coma como delimitador
 lista = productos.split(',')
 
 # Mostrar cada producto en una línea distinta
-print("Los productos en la cesta son:")
+print("Los productos en la cesta son:\n")
 for producto in lista:
-    print(producto.strip())  # strip() elimina los espacios en blanco al principio y al final
+    print(producto.strip(),"\n")  # strip() elimina los espacios en blanco al principio y al final
