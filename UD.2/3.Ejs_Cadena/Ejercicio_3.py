@@ -40,12 +40,15 @@ print("""
                 print("Debes introducir una vocal en minúscula.\n")\n\n""")
 
 # Solicitar una frase al usuario
+
 frase = input("Introduce una frase: \n")
 
 # Solicitar una vocal en minúscula
+
 vocal = input("Introduce una vocal en minúscula: \n")
 
 # Verificar que la entrada sea una vocal y tenga solo un carácter
+
 if len(vocal) == 1 and vocal in "aeiou":
     # Crear una nueva frase con la vocal en mayúscula
     frase_modificada = ""
