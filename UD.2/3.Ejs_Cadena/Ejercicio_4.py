@@ -29,26 +29,26 @@ print("""
     
     # Mostrar el nuevo correo
     
-        print("Tu nuevo correo es:", newMail)
+        print("Tu nuevo correo es:", newMail,".\n")
     
     else:
         print("El correo electrónico introducido no es válido.\n")\n\n""")
 
 # Solicitar el correo electrónico al usuario
-correo = input("Introduce tu correo electrónico: \n")
+mail = input("Introduce tu correo electrónico: \n")
 
 # Encontrar la posición de la arroba (@)
-posicion_arroba = correo.find('@')
+arroba = mail.find('@')
 
 # Verificar que el correo tiene un arroba
-if posicion_arroba != -1:
+if arroba != -1:
     # Extraer la parte antes de la arroba
-    nombre_usuario = correo[:posicion_arroba]
+    nomUser = mail[:arroba]
     
     # Construir el nuevo correo con el dominio avanza.es
-    nuevo_correo = nombre_usuario + "@avanza.es"
+    newMail = nomUser + "@avanza.es"
     
     # Mostrar el nuevo correo
-    print("Tu nuevo correo es:", nuevo_correo)
+    print("Tu nuevo correo es:", newMail,".\n")
 else:
     print("El correo electrónico introducido no es válido.\n")
