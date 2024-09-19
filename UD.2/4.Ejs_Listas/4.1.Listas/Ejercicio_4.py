@@ -29,3 +29,18 @@ precio_mayor = max(precios)
 # Mostrar el precio menor y el precio mayor
 print(f"El precio menor es: {precio_menor}.")
 print(f"El precio mayor es: {precio_mayor}.")
+
+
+
+# Lista de precios
+precios = [50, 75, 46, 22, 80, 65, 8]
+
+# Encontrar el precio menor y mayor usando sort()
+
+precios.sort()
+#print(precios[0])
+#print(precios[-1])
+
+num = len(precios)
+print(f"El precio menor es: {precios[0]}.")
+print(f"El precio mayor es: {precios[-1]}.")

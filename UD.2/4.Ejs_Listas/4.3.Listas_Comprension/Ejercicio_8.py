@@ -13,7 +13,12 @@ palabras = ["manzana", "banana", "cereza"]
 iniciales = [palabra[0] for palabra in palabras]
 
 # Mostrar la lista de primeras letras
-print("Las primeras letras de las palabras son:", iniciales+".")\n""")
+print("Las primeras letras de las palabras son:", iniciales+".")
+
+# Otra forma Crear una lista con las primeras letras de cada palabra
+
+iniciales = [i[0] for i in range palabras]
+print(f"Las primeras letras de las palabras son:", iniciales,".\n")\n""")
 
 # Lista de palabras
 palabras = ["manzana", "banana", "cereza"]
@@ -22,4 +27,9 @@ palabras = ["manzana", "banana", "cereza"]
 iniciales = [palabra[0] for palabra in palabras]
 
 # Mostrar la lista de primeras letras
-print("Las primeras letras de las palabras son:", iniciales+".\n")
+print(f"Las primeras letras de las palabras son:", iniciales,".\n")
+
+# Otra forma Crear una lista con las primeras letras de cada palabra
+
+iniciales = [i[0] for i in palabras]
+print(f"Las primeras letras de las palabras son:", iniciales,".\n")

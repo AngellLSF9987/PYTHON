@@ -36,8 +36,17 @@ for i in range(10):
 
 # Ordenar la lista de números de mayor a menor
 
+#numeros.reverse()
 numeros.sort(reverse=True)
 
 # Mostrar los números ordenados de mayor a menor
 
-print("Los números ordenados de mayor a menor son:", numeros+".\n")
+print("Los números ordenados de mayor a menor son:", numeros,".\n")
+
+# Ordenar la lista de números de menor a mayor
+
+numeros.sort()
+
+# Mostrar los números ordenados de menor a mayor
+
+print("Los números ordenados de menor a mayor son:", numeros,".\n")
