@@ -142,8 +142,7 @@ else:
     while option != "S":
         print("\nMenú Cliente:\n")
         print("A. Mostrar Lista de Películas en Cartelera.\n")
-        print("B. Agregar una nueva película.\n")
-        print("C. Buscar película por título.\n")
+        print("B. Buscar película por título.\n")
         print("C. Buscar películas por género.\n")
         print("D. Cambiar contraseña de usuario.\n")
         print("E. Crear listas de películas favoritas que se quiere ver.\n")
@@ -277,7 +276,6 @@ if es_admin:
     option = ""
     
     # Menú ADMIN
-    
     while option != "S":
         
         print("\nMenú Administrador.\n")
@@ -287,57 +285,51 @@ if es_admin:
         print("D. Eliminar una película de la lista.\n")
         print("S. Salir.\n")
         option = input("Seleccione una de las opciones disponibles:\n ").upper()
-    
-    # OPCIÓN A: MOSTRAR LISTA COMPLETA DE PELÍCULAS
-    
-    if option == "A":
-        print("\nListado de Películas en Cartelera.\n")
-        for film in films:
-            print(film)
-    
-    # OPCIÓN B: AGREGAR UNA PELÍCULA
-    
-    elif option == "B":
-        name = input("¿Nombre de la película?\n")
-        gender = input("¿Género de la película?\n")
-        date = int(input("¿Fecha lanzamiento de la película?\n"))
-        films.append((name,gender,date))
-        print("Película agregada correctamente!\n")
         
-    # OPCIÓN C: MODIFICAR UNA PELÍCULA
-    
-    elif option == "C":
-        name = input("Ingrese el título de la película que va a modificar:\n")
-        for i, film in enumerate(films):
-            if film[0].lower() == name.lower():
-                new_name = input("Ingrese nuevo título:\n")
-                new_gender = input("Ingrese nuevo género:\n")
-                new_date = input("Ingrese nueva fecha de lanzamiento:\n")
-                films[i] = (new_name, new_gender, new_date)
-                print("Película modificada correctamente!\n")
-                break
-        else:
-            print("Película no encontrada")
+        # OPCIÓN A: MOSTRAR LISTA COMPLETA DE PELÍCULAS
+        if option == "A":
+            print("\nListado de Películas en Cartelera.\n")
+            for film in films:
+                print(film)
         
-    # OPCIÓN D: ELIMINAR UNA PELÍCULA.
-    
-    elif option == "D":
-        name = input("Ingrese el título de la película a eliminar:\n")
-        for film in films:
-            if film[0].lower() == name.lower():
-                films.remove(film)
-                print("Película eliminada!\n")
-                break
+        # OPCIÓN B: AGREGAR UNA PELÍCULA
+        elif option == "B":
+            name = input("¿Nombre de la película?\n")
+            gender = input("¿Género de la película?\n")
+            date = int(input("¿Fecha lanzamiento de la película?\n"))
+            films.append((name, gender, date))
+            print("Película agregada correctamente!\n")
+        
+        # OPCIÓN C: MODIFICAR UNA PELÍCULA
+        elif option == "C":
+            name = input("Ingrese el título de la película que va a modificar:\n")
+            for i, film in enumerate(films):
+                if film[0].lower() == name.lower():
+                    new_name = input("Ingrese nuevo título:\n")
+                    new_gender = input("Ingrese nuevo género:\n")
+                    new_date = int(input("Ingrese nueva fecha de lanzamiento:\n"))
+                    films[i] = (new_name, new_gender, new_date)
+                    print("Película modificada correctamente!\n")
+                    break
+            else:
+                print("Película no encontrada")
+        
+        # OPCIÓN D: ELIMINAR UNA PELÍCULA
+        elif option == "D":
+            name = input("Ingrese el título de la película a eliminar:\n")
+            for film in films:
+                if film[0].lower() == name.lower():
+                    films.remove(film)
+                    print("Película eliminada!\n")
+                    break
             else:
                 print("La película que buscas no existe.\n")
-    
-    # OPCION S: SALIR.
-    
-    elif option == "S":
-        print("Cerrando su sesión...")
         
-    else:
-        print("Opción no válida.")
+        # OPCIÓN S: SALIR
+        elif option == "S":
+            print("Cerrando su sesión...")
+        else:
+            print("Opción no válida.")
 
 else:
     # INYECCIÓN USUARIOS CLIENTES
@@ -351,8 +343,7 @@ else:
         
         print("\nMenú Cliente:\n")
         print("A. Mostrar Lista de Películas en Cartelera.\n")
-        print("B. Agregar una nueva película.\n")
-        print("C. Buscar película por título.\n")
+        print("B. Buscar película por título.\n")
         print("C. Buscar películas por género.\n")
         print("D. Cambiar contraseña de usuario.\n")
         print("E. Crear listas de películas favoritas que se quiere ver.\n")
