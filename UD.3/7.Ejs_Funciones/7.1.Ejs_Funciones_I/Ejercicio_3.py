@@ -15,7 +15,7 @@ def total_factura(sin_iva, porcentaje=21):
     
     return total
 
-cantidad = float(input("Introduce la cantidad sin IVA:ºn"))
+cantidad = float(input("Introduce la cantidad sin IVA:\n"))
 iva = input("Introduce el porcentaje de IVA:\n") # Ésto es opcional ya que el sistema lleva aplicado el 21%
 
 if iva:
