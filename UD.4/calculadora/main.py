@@ -1,5 +1,5 @@
 # main.py
-from menu import mostrar_menu, elegir_operacion
+from packages.menu import mostrar_menu,elegir_operacion
 
 def calculadora():
     mostrar_menu()
