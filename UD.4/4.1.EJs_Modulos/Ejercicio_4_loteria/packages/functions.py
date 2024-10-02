@@ -8,7 +8,7 @@ def generar():
     - random.sample() para generar 5 números sin repeticón entre 1 y 54.
     - random.choice() para elegir un número clave entre 0 y 9.
     """
-    num_ganadores = random.sample(range(1,55), 5) # Genera 5 números entre 1 y 54 sin repeticón.
+    num_ganadores = random.sample(range(0,9), 5) # Genera 5 números entre 1 y 54 sin repeticón.
     num_clave = random.choice(range(10)) # Genera un número clave entre 0 y 9
 
     return num_ganadores, num_clave
