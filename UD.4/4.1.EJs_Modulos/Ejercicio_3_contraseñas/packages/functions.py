@@ -6,9 +6,9 @@ import string
 def generar(longitud):
     """
     Genera una contraseña con:
-        > string.ascii_letters - letras(mayúsculas y minúsculas), tomando como referencia la tabla ASCII
-        > string.digits - números del 0 al 9
-        > string.puntuctuation - Caracteres especiales: '!"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~'
+        - string.ascii_letters - letras(mayúsculas y minúsculas), tomando como referencia la tabla ASCII
+        - string.digits - números del 0 al 9
+        - string.puntuctuation - Caracteres especiales: '!"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~'
     """
     caracteres = string.ascii_letters + string.digits + string.punctuation
     contraseña = "" # Usamos una cadena vacía para ir añadiendo caracteres
