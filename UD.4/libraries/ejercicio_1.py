@@ -1,4 +1,4 @@
-from libraryMath_Statistics.operaciones_pruebas import media
+from math.operations import media
 
 # Lista de precios
 precios = [50, 75, 46, 22, 80, 65, 8]
