@@ -15,7 +15,7 @@ class Cultivo:
         - Define las fechas en formato de España.
         
             strftime("%d/%m/%Y"): Convierte las fechas fecha_siembra y fecha_cosecha_esperada en cadenas de texto con el formato dd/mm/YYYY, que es el estilo español.
-                    %d: Día con dos dígitos (ej. 01, 15).
+                    %d: Día con dos dígitos.
                     %m: Mes con dos dígitos.
                     %Y: Año con cuatro dígitos."""
 
@@ -50,7 +50,7 @@ class Cultivo:
         elif dias_restantes == 0:
             print(f"Hoy es día de cosecha de {self.nombre}.\n")
         else:
-            print(f"La fecha de cosecha de {self.nombre} ha pasado {abs(dias_restantes)} días.")
+            print(f"La fecha de cosecha de {self.nombre} han pasado {abs(dias_restantes)} días.")
 
 
                     

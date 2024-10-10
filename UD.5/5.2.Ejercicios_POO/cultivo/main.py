@@ -3,7 +3,7 @@ from datetime import date
 
 # Objetos
 
-cultivo1 = Cultivo("Maíz", "Dulce", date(2024, 12, 1), date(2024, 1, 1))
+cultivo1 = Cultivo("Maíz", "Dulce", date(2024, 10, 10), date(2024, 10, 15))
 cultivo2 = Cultivo("Fresas", "Fresón", date(2024, 9, 9), date(2024, 10,10))
 
 lista_cultivos = [cultivo1,cultivo2]

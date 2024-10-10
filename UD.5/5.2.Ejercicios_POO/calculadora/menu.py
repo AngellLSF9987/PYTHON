@@ -1,4 +1,4 @@
-from packages.operations import sumar,restar,dividir,multiplicar
+from operations import sumar,restar,dividir,multiplicar
 
 def mostrar_menu():
     print("Bienvenido a la calculadora")
